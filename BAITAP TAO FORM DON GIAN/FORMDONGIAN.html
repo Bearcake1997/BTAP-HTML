@@ -19,9 +19,66 @@
         .left-col{
             width: 50%
         }
+        td {
+            color: orange;
+        }
     </style>
 </head>
 <body>
+    <div style="backgroung-color: aqua; justify-content: center; display: flex">
+        <table border="0" style="background-color: white; margin:30px">
+            <tr>
+                <th colspan="2" style="background-color:red; color:white">
+                    <p> SỞ THÍCH CỦA BẠN</p>
+                </th>
+            </tr>
+            <tr>
+                <td style="color:blue">
+                    <p>Họ và tên</p>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td style="color: blue">
+                    <p>Email</p>
+                </td>
+                <td>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td style="color: blue">Sở thích</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="Thể thao" />Thể thao
+                    <input type="checkbox" name="hobby" value="Âm nhạc" />Âm nhạc
+                    <input type="checkbox" name="hobby" value="Đọc sách" />Đọc sách
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="hobby" value="Lướt web" />Lướt web
+                    <input type="checkbox" name="hobby" value="Chơi gmae" />Chơi game
+                    <input type="checkbox" name="hobby" value="Điện ảnh" />Điện ảnh
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="hobby" value="Du lịch" />Du lịch
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </div>
     <h1 class="form-title">Đăng Ký Học Viên</h1>
     <form action="signup.php" class="signup-form">
         <table cellpadding="0" cellspacing="0">
